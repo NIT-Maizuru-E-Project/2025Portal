@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // ビルド後のアセット参照を相対パスにする
+  base: './',
   plugins: [
     vue(),
     vueDevTools(),
@@ -18,5 +20,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
     emptyOutDir: true,
+    // 生成されるアセットの配置先（outDir直下に配置したい場合は空文字）
+    assetsDir: '',
   },
 })
