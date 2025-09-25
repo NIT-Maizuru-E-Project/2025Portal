@@ -1,8 +1,8 @@
 <template>
   <div class="home min-h-screen bg-gray-50 flex items-start">
     <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm  text-center p-8 m-4">
-      <h1 class="text-4xl font-bold text-blue-600 mb-4">E-Project2025部員用ポータル</h1>
-      <p class="text-lg text-gray-700 max-w-md mx-auto">各種サイトへのリンク集兼ポータルサイトです．</p>
+      <h1 class="text-4xl font-bold text-blue-600 mb-4">This is just a warning, no error.</h1>
+      <p class="text-lg text-gray-700 max-w-md mx-auto">各種サイトへのリンク集兼ポータルサイトです．<br />みんな楽しんで開発しましょう！</p>
       
       <!-- カウントダウン -->
       <div class="mt-8 p-6 bg-orange-100 border-red-400 rounded-lg inline-block px-12">
