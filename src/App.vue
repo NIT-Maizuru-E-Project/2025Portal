@@ -1,14 +1,34 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+// Main App component with Vue Router
 </script>
 
 <template>
-  <div class="flex h-screen items-center justify-center bg-white dark:bg-gray-800">
-    <button
-      class="py-4 px-6 w-96 font-bold font-mono rounded-md transition-all text-white bg-blue-700 hover:bg-blue-800 active:bg-blue-900 dark:text-black dark:bg-blue-400 dark:hover:bg-blue-500 dark:active:bg-blue-600"
-    >
-      Hello Tailwind
-    </button>
+  <div id="app" class="min-h-screen bg-white dark:bg-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">2025 Portal</h1>
+        <div class="space-x-4">
+          <router-link 
+            to="/" 
+            class="px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            active-class="bg-gray-700"
+          >
+            Home
+          </router-link>
+          <router-link 
+            to="/about" 
+            class="px-3 py-2 rounded hover:bg-gray-700 transition-colors"
+            active-class="bg-gray-700"
+          >
+            About
+          </router-link>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Router View -->
+    <router-view />
   </div>
 </template>
 
