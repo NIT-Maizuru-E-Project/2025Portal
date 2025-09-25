@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'docs',
+    outDir: 'public',
     emptyOutDir: true,
     // 生成されるアセットの配置先（outDir直下に配置したい場合は空文字）
     assetsDir: '',
