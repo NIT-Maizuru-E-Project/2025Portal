@@ -1,6 +1,6 @@
 <template>
-  <div class="home min-h-screen bg-gray-50 flex items-start">
-    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm  text-center p-8 m-4">
+  <div class="home min-h-screen bg-gray-50 flex flex-col items-start px-4">
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm  text-center p-8 my-4">
       <h1 class="text-4xl font-bold text-blue-600 mb-4">This is just a warning, no error.</h1>
       <p class="text-lg text-gray-700 max-w-md mx-auto">各種サイトへのリンク集兼ポータルサイトです．<br />みんな楽しんで開発しましょう！</p>
       
@@ -23,6 +23,24 @@
         </div>
       </div>
     </div>
+
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-4">
+      <h1 class="text-4xl font-bold text-blue-600 mb-4">組織図・メンバー一覧</h1>
+      <p class="text-lg text-gray-700">サバゲー班</p>
+      
+      <!-- 追加コンテンツエリア -->
+      <div class="mt-8 p-6 bg-blue-50 border-blue-400 rounded-lg inline-block px-12">
+        <h2 class="text-2xl font-bold text-blue-600 mb-3">新機能</h2>
+        <div class="text-lg text-gray-800">
+          今後の機能追加予定です
+        </div>
+      </div>
+    </div>
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-4">
+        <h1 class="text-4xl font-bold text-blue-600 mb-4">組織図・メンバー一覧</h1>
+        <p class="text-lg text-gray-700">サバゲー班</p>
+    </div>
+        
   </div>
 </template>
 
