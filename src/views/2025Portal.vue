@@ -24,8 +24,15 @@
       </div>
     </div>
 
+    <router-link to="/Member" class="w-full rounded transition-colors">
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-4 hover:bg-gray-100">
+        <h1 class="text-4xl font-bold text-blue-600 mb-4">組織構成・メンバー一覧</h1>
+        <p class="text-lg text-gray-700">組織構成およびメンバー一覧をご覧になれます．</p>
+    </div>
+    </router-link>
+
     <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-4">
-      <h1 class="text-4xl font-bold text-blue-600 mb-4">組織図・メンバー一覧</h1>
+      <h1 class="text-4xl font-bold text-blue-600 mb-4">組織構成・メンバー一覧</h1>
       <p class="text-lg text-gray-700">サバゲー班</p>
       
       <!-- 追加コンテンツエリア -->
