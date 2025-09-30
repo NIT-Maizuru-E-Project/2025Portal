@@ -64,7 +64,7 @@
         <!-- 技術チーフ/監視員 -->
         <div class="bg-gradient-to-r from-purple-50 to-purple-100 border-l-4 border-purple-500 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
           <h2 class="text-xl font-bold text-purple-700 mb-3 flex items-center">
-            <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm mr-3">技術チーフ</span>
+            <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm mr-3">監視員/技術チーフ</span>
           </h2>
           <p class="text-lg font-semibold text-gray-800">藤井(5E)</p>
         </div>
@@ -167,6 +167,7 @@
                 <li class="flex items-center"><span class="text-yellow-500 mr-2">★</span>辻本(3E)</li>
                 <li class="flex items-center"><span class="w-4 mr-2"></span>谷村(3E)</li>
                 <li class="flex items-center"><span class="w-4 mr-2"></span>松田(1E)</li>
+                <li class="flex items-center"><span class="w-4 mr-2"></span>日詰(3E，音響担当)</li>
               </ul>
             </div>
 
@@ -239,6 +240,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm  text-center p-8 my-4">
+      <h1 class="text-4xl font-bold text-blue-600 mb-4">人事異動</h1>
+      <p class="text-lg text-gray-700 max-w-md mx-auto">過去の人事異動についてご覧いただけます．</p>
     </div>
         
   </div>
