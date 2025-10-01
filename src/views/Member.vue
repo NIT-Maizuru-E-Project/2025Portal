@@ -106,6 +106,7 @@
               </h3>
               <ul class="text-lg text-gray-800 space-y-1">
                 <li class="flex items-center"><span class="text-yellow-500 mr-2">★</span>平田(5E)</li>
+                <li class="flex items-center"><span class="text-yellow-500 mr-2"></span>鈴木(2E)</li>
               </ul>
             </div>
           </div>
@@ -122,6 +123,7 @@
                 <li class="flex items-center"><span class="w-4 mr-2"></span>日詰(3S)</li>
                 <li class="flex items-center"><span class="w-4 mr-2"></span>松宮(2E)</li>
                 <li class="flex items-center"><span class="w-4 mr-2"></span>竹内(2E)</li>
+                <li class="flex items-center"><span class="w-4 mr-2"></span>鈴木(2E)</li>
               </ul>
             </div>
 
@@ -241,19 +243,102 @@
         </div>
       </div>
     </div>
-    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm  text-center p-8 my-4">
-      <h1 class="text-4xl font-bold text-blue-600 mb-4">人事異動</h1>
-      <p class="text-lg text-gray-700 max-w-md mx-auto">過去の人事異動についてご覧いただけます．</p>
+    <div class="block w-full bg-white border border-gray-200 rounded-lg shadow-sm p-8 my-4">
+      <h1 class="text-4xl font-bold text-blue-600 mb-6 text-center">人事異動</h1>
+      <p class="text-lg text-gray-700 max-w-md mx-auto text-center mb-8">過去の人事異動についてご覧いただけます．</p>
+      
+      <!-- 人事異動資料ダウンロードリンク -->
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <!-- メインのPDFリンク -->
+        <a 
+          href="./jinji_20251001.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="group bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-3"
+        >
+          <!-- PDFアイコン -->
+          <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
+          </svg>
+          
+          <!-- テキスト -->
+          <div class="text-left">
+            <div class="text-lg font-bold">人事異動資料</div>
+            <div class="text-sm opacity-90">2025年10月1日版 (PDF)</div>
+          </div>
+          
+          <!-- 外部リンクアイコン -->
+          <svg class="w-4 h-4 text-white opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+          </svg>
+        </a>
+
+        <!-- 代替リンク -->
+        <a 
+          href="./jinji_20251001.pdf" 
+          download="jinji_20251001.pdf"
+          class="group bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2"
+        >
+          <!-- ダウンロードアイコン -->
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+          
+          <div class="text-sm">
+            <div class="font-bold">ダウンロード</div>
+          </div>
+        </a>
+      </div>
+      
+      <!-- Firebase環境でのPDF閲覧について -->
+      <div class="mt-6 space-y-4">
+        <!-- 基本情報 -->
+        <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <svg class="h-5 w-5 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-blue-700 font-medium">PDF閲覧について</p>
+              <p class="text-sm text-blue-600 mt-1">PDFの閲覧にはPDF対応のWebブラウザを使用してください．</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Firebase特有の問題への対処法 -->
+        <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <svg class="h-5 w-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-sm text-yellow-700 font-medium">閲覧できない場合</p>
+              <ul class="text-sm text-yellow-600 mt-1 space-y-1">
+                <li>• ブラウザでPDFが開けない場合は「ダウンロード」ボタンをお試しください</li>
+                <li>• モバイル端末では自動的にダウンロードされる場合があります</li>
+                <li>• ページの再読み込みで解決する場合があります</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
         
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 // モーダル表示状態
 const showModal = ref(false)
+
+// 注意: PDFファイルはpublicフォルダに配置されており、相対パスで直接アクセス可能
 
 // 画像モーダルを開く
 const openImageModal = () => {
