@@ -186,7 +186,9 @@
             <!-- お客様対策チーム -->
             <div class="bg-white bg-opacity-50 rounded-lg p-4">
               <h3 class="text-lg font-bold text-emerald-700 mb-2">お客様対策チーム</h3>
-              <div class="text-gray-600 italic">Coming soon...</div>
+              <li class="flex items-center"><span class="text-yellow-500 mr-2">★</span>平田(5E)</li>
+              <li class="flex items-center"><span class="w-4 mr-2"></span>藤田(1E)</li>
+              <li class="flex items-center"><span class="w-4 mr-2"></span>山本(1E)</li>
             </div>
           </div>
         </div>
@@ -278,6 +280,49 @@
         <a 
           href="./jinji_20251001.pdf" 
           download="jinji_20251001.pdf"
+          class="group bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2"
+        >
+          <!-- ダウンロードアイコン -->
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+          
+          <div class="text-sm">
+            <div class="font-bold">ダウンロード</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-4 mt-4">
+        <!-- メインのPDFリンク -->
+        <a 
+          href="./jinji_20251002.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="group bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-semibold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-3"
+        >
+          <!-- PDFアイコン -->
+          <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
+          </svg>
+          
+          <!-- テキスト -->
+          <div class="text-left">
+            <div class="text-lg font-bold">人事異動資料</div>
+            <div class="text-sm opacity-90">2025年10月2日版 (PDF)</div>
+          </div>
+          
+          <!-- 外部リンクアイコン -->
+          <svg class="w-4 h-4 text-white opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
+          </svg>
+        </a>
+
+        <!-- 代替リンク -->
+        <a 
+          href="./jinji_20251002.pdf" 
+          download="jinji_20251002.pdf"
           class="group bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-4 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center space-x-2"
         >
           <!-- ダウンロードアイコン -->
