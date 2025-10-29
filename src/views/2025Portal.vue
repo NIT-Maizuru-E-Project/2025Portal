@@ -198,6 +198,12 @@ onUnmounted(() => {
 // 下記のような相対パス（./ファイル名.pdf）で安定して配信されます。
 const documents = ref([
   {
+    title: '高専祭当日パンフレット',
+    date: '2025-10-30',
+    path: './2025pamphlet.pdf',
+    download: '2025pamphlet.pdf'
+  },
+  {
     title: 'サバゲーユニットシフト',
     date: '2025-10-30',
     path: './shift_v5.pdf',
